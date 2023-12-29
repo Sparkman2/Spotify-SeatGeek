@@ -1,0 +1,97 @@
+
+:root {
+    --font-family: Roobert, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+.concerts-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.concert_title {
+    font-size: 1.5em;
+    padding-left: 585px;
+    font-family: var(--font-family);
+
+}
+
+.concerts-container {
+    display: flex;
+    flex-direction: column;
+    max-height: 500px;
+    overflow-y: auto;
+
+}
+
+
+.concert-button {
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    text-align: left;
+}
+
+.concert-button:hover {
+    background-color: #1F1F1F;
+}
+
+.concert-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    font-family: var(--font-family);
+
+}
+
+.concert-date {
+    white-space: nowrap;
+    margin-right: 10px;
+    width: 100px;
+    text-align: left;
+}
+
+.concert-date, .concert-title, .concert-details {
+    margin-bottom: 5px;
+}
+
+.concert-title {
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 300px;
+}
+
+.concert-details {
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+    color: rgb(118, 117, 117);
+    font-family: var(--font-family);
+
+}
+
+.concert-time {
+    white-space: nowrap;
+    margin-right: -40px;
+    width: 150px;
+    text-align: left;
+}
+
+.venue-info {
+
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 300px;
+}
+
+.no-concerts-message {
+    padding-left: 10px;
+    text-align: left;
+    font-size: 1em;
+}
+
+

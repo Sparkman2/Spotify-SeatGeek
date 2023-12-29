@@ -1,0 +1,30 @@
+.playback-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.playback-controls img {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.play-button img {
+    width: 70px;
+    height: 70px;
+}
+
+.playback-controls button {
+    background: none;
+    border: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+
+.playback-controls button:nth-child(1), .playback-controls button:nth-child(3) {
+    margin: 0 20px;
+}
+

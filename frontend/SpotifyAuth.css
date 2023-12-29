@@ -1,0 +1,121 @@
+:root {
+    --font-family: Roobert, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+.spotify-auth {
+    height: 100vh;
+    background-size: 70% auto;
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+.spotify-auth::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100.8vh;
+    width: 100%;
+
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.current-artist-image, .next-artist-image {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-size: 70% auto;
+    background-position: top left;
+    transition: opacity 1s ease-in-out;
+    background-repeat: no-repeat;
+    z-index: 0;
+
+}
+
+.content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 20px;
+    height: 100%;
+    z-index: 2;
+}
+
+.playback-controls-container {
+    position: absolute;
+    left: 28%;
+    transform: translateX(20%);
+    top: 81%;
+    transform: translateY(50%);
+
+}
+
+.now-playing-container {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding-left: 20px;
+    top: 68%;
+    left: 2%;
+}
+
+.concerts-container {
+    bottom: 0;
+    padding-left: 575px;
+}
+
+.user-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 1125px;
+    padding-bottom: 30px;
+}
+
+
+.user-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+
+
+.user-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-family: var(--font-family);
+
+}
+
+.logout-button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    font-family: var(--font-family);
+
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
