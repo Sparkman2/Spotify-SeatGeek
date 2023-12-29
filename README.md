@@ -14,3 +14,9 @@ Key Features:
 - Responsive and user-friendly interface for a seamless music and event browsing experience
 
 
+# Check it out!
+
+
+https://github.com/Sparkman2/Spotify-SeatGeek/assets/96559493/8f0ad88e-6a4c-4bd1-9944-d2aa112f6d0d
+
+
